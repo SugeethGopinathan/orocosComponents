@@ -81,9 +81,10 @@ bool KinematicChain::initKinematicChain() {
     _cartesian_stiff.setZero();
 
 
-    /* Test this on the real system for feedback */
+    /* Test this on the real system for feedback *///
     // Setting the initial value for the trans and rot feedback variables
 
+    // Delete after test
     /*trans.translation(0)=0.0;
     trans.translation(1)=0.0;
     trans.translation(2)=0.0;

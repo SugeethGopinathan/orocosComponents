@@ -1,0 +1,66 @@
+import("eigen_typekit")
+import("rst-rt_typekit")
+import("rtt-lwr-hardware-integration")
+loadComponent("lwr_fri","cogimon::lwr_robot")
+setActivity("lwr_fri",0.001,HighestPriority,ORO_SCHED_RT)
+lwr_fri.getModel("/home/cogimon/cosima/share/gazebo/models/cogimon/kuka-lwr-4plus/model.urdf")
+lwr_fri.loadURDFAndSRDF("/home/cogimon/cosima/share/gazebo/models/cogimon/kuka-lwr-4plus/model.urdf","/home/cogimon/cosima/share/gazebo/models/cogimon/kuka-lwr-4plus/model.srdf")
+lwr_fri.ip_addr="192.168.0.100"
+lwr_fri.configure()
+
+lwr_fri.setControlMode("full_arm","JointTorqueCtrl")
+
+import("cosima-aux-kd")
+loadComponent("id", "cosima::InverseDynamicsTMP")
+setActivity("id",0.001,80,ORO_SCHED_RT)
+id.setBaseAndTip("lwr_arm_base_link", "lwr_arm_7_link");
+id.setDOFsize(7)
+id.loadURDFAndSRDF("/home/cogimon/cosima/share/gazebo/models/cogimon/kuka-lwr-4plus/model.urdf","/home/cogimon/cosima/share/gazebo/models/cogimon/kuka-lwr-4plus/model.srdf")
+id.configure
+
+
+
+import("LWRController")
+loadComponent("jntPosCtrl","JointPositionCtrl")
+setActivity("jntPosCtrl",0.001,80,ORO_SCHED_RT)
+jntPosCtrl.setDOFsizeAndGains(7,20,5)
+
+var rstrt.kinematics.JointAngles desiered = rstrt.kinematics.JointAngles(7)
+desiered.angles[0]=0
+desiered.angles[1]=0.653417
+desiered.angles[2]=0
+desiered.angles[3]=-0.782951
+desiered.angles[4]=0
+desiered.angles[5]=1.57071
+desiered.angles[6]=0.25
+
+var rstrt.kinematics.JointVelocities velocities = rstrt.kinematics.JointVelocities(7)
+velocities.velocities[0]=0.15
+velocities.velocities[1]=0.15
+velocities.velocities[2]=0.15
+velocities.velocities[3]=0.15
+velocities.velocities[4]=0.15
+velocities.velocities[5]=0.15
+velocities.velocities[6]=0.15
+
+jntPosCtrl.setDesiredJointAngles(desiered)
+jntPosCtrl.setDesiredJointVelocities(velocities)
+
+
+var ConnPolicy cp
+connect("lwr_fri.full_arm_JointFeedback","id.jointFB", cp)
+connect("lwr_fri.full_arm_JointFeedback","jntPosCtrl.in_robotstatus_port",cp)
+connect("jntPosCtrl.out_torques_port","lwr_fri.full_arm_JointTorqueCtrl",cp)
+connect("id.hVector", "jntPosCtrl.gravity_vector_input_port", cp)
+
+jntPosCtrl.configure
+
+id.start
+jntPosCtrl.start
+
+lwr_fri.start
+
+
+
+
+

@@ -1,0 +1,38 @@
+import("eigen_typekit")
+import("rst-rt_typekit")
+import("rtt-lwr-hardware-integration")
+loadComponent("lwr_fri","cogimon::lwr_robot")
+setActivity("lwr_fri",0.002,HighestPriority,ORO_SCHED_RT)
+lwr_fri.getModel("/home/sgo/Cogimon/cogimon-gazebo-models/kuka-lwr-4plus/model.urdf")
+lwr_fri.loadURDFAndSRDF("/home/sgo/Cogimon/cogimon-gazebo-models/kuka-lwr-4plus/model.urdf","/home/sgo/Cogimon/cogimon-gazebo-models/kuka-lwr-4plus/model.srdf")
+lwr_fri.ip_addr="192.168.0.200"
+lwr_fri.configure()
+
+
+lwr_fri.setControlMode("full_arm","CartesianImpedanceCtrl")
+#lwr_fri.setControlMode("full_arm","JointImpedanceCtrl")
+
+lwr_fri.start
+
+
+
+#lwr_fri.setControlMode("full_arm","CartesianImpedanceCtrl")
+#lwr_fri.setControlMode("full_arm","JointTorqueCtrl")
+
+
+#lwr_fri.start
+
+
+
+
+
+
+
+
+## To be noted : The ip in the KRC script needs to the changed to 192.168.0.200 from the value stated there
+
+## First start in Position Control and then Run the Krc script until halt
+
+## Then run the ops script: configure your chain, select the control mode and start the lwr_fri
+
+## Continue running the KRC script to get to the FRIcommand mode  

@@ -1,0 +1,6 @@
+import("rtt-lwr-hardware-integration")
+loadComponent("lwr_fri","cogimon::lwr_robot")
+setActivity("lwr_fri",0.001,HighestPriority,ORO_SCHED_RT)
+lwr_fri.getModel("/home/cogimon/cosima/share/gazebo/models/cogimon/kuka-lwr-4plus/model.urdf")
+lwr_fri.loadURDFAndSRDF("/home/cogimon/cosima/share/gazebo/models/cogimon/kuka-lwr-4plus/model.urdf","/home/cogimon/cosima/share/gazebo/models/cogimon/kuka-lwr-4plus/model.srdf")
+lwr_fri.ip_addr="192.168.0.100"

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="rtt-manipulability-estimator" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\citk\;CMake Files\..\..\..\citk\systems\;CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\;CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\lib\;CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\lib\cmake\;CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\lib\cmake\orocos-rtt\;CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\share\;CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\share\rtt-core-extensions-0.1\;CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\share\rst-rt-0.1\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\..\opt\ros\kinetic\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\;CMake Files\..\..\..\..\..\opt\ros\kinetic\share\orocos_kdl\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rtt-manipulability-estimator">
+         <Option output="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/orocos/gnulinux/rtt-manipulability-estimator/librtt-manipulability-estimator-gnulinux.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DOROCOS_TARGET=gnulinux" />
+            <Add directory="/home/sgo/citk/systems/cogimon-minimal-nightly/include" />
+            <Add directory="/home/sgo/citk/systems/cogimon-minimal-nightly/include/orocos" />
+            <Add directory="/home/sgo/citk/systems/cogimon-minimal-nightly/share/rst-rt-0.1/../../include/rst-rt0.1" />
+            <Add directory="/home/sgo/citk/systems/cogimon-minimal-nightly/share/rtt-core-extensions-0.1/../../include/rtt-core-extensions0.1" />
+            <Add directory="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/include" />
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 rtt-manipulability-estimator" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rtt-manipulability-estimator/fast">
+         <Option output="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/orocos/gnulinux/rtt-manipulability-estimator/librtt-manipulability-estimator-gnulinux.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DOROCOS_TARGET=gnulinux" />
+            <Add directory="/home/sgo/citk/systems/cogimon-minimal-nightly/include" />
+            <Add directory="/home/sgo/citk/systems/cogimon-minimal-nightly/include/orocos" />
+            <Add directory="/home/sgo/citk/systems/cogimon-minimal-nightly/share/rst-rt-0.1/../../include/rst-rt0.1" />
+            <Add directory="/home/sgo/citk/systems/cogimon-minimal-nightly/share/rtt-core-extensions-0.1/../../include/rtt-core-extensions0.1" />
+            <Add directory="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/include" />
+            <Add directory="/opt/ros/kinetic/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 rtt-manipulability-estimator/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="uninstall">
+         <Option working_dir="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 uninstall" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/include/rtt-manipulability-estimator.hpp">
+         <Option target="rtt-manipulability-estimator"/>
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/src/rtt-manipulability-estimator.cpp">
+         <Option target="rtt-manipulability-estimator"/>
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/../../../citk/systems/cogimon-minimal-nightly/lib/cmake/orocos-rtt/orocos-rtt-config-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\lib\cmake\orocos-rtt\" />
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/../../../citk/systems/cogimon-minimal-nightly/lib/cmake/orocos-rtt/orocos-rtt-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\lib\cmake\orocos-rtt\" />
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/../../../citk/systems/cogimon-minimal-nightly/lib/cmake/orocos-rtt/orocos-rtt-config-gnulinux.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\lib\cmake\orocos-rtt\" />
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/../../../citk/systems/cogimon-minimal-nightly/lib/cmake/orocos-rtt/orocos-rtt-gnulinux-libraries.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\lib\cmake\orocos-rtt\" />
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/../../../citk/systems/cogimon-minimal-nightly/lib/cmake/orocos-rtt/orocos-rtt-gnulinux-libraries-relwithdebinfo.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\lib\cmake\orocos-rtt\" />
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/../../../citk/systems/cogimon-minimal-nightly/lib/cmake/orocos-rtt/orocos-rtt-config-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\lib\cmake\orocos-rtt\" />
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/../../../citk/systems/cogimon-minimal-nightly/lib/cmake/orocos-rtt/orocos-rtt-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\lib\cmake\orocos-rtt\" />
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/../../../citk/systems/cogimon-minimal-nightly/lib/cmake/orocos-rtt/orocos-rtt-config-gnulinux.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\lib\cmake\orocos-rtt\" />
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/../../../citk/systems/cogimon-minimal-nightly/lib/cmake/orocos-rtt/UseOROCOS-RTT.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\lib\cmake\orocos-rtt\" />
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/../../../citk/systems/cogimon-minimal-nightly/lib/cmake/orocos-rtt/UseOROCOS-RTT-helpers.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\lib\cmake\orocos-rtt\" />
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/../../../citk/systems/cogimon-minimal-nightly/lib/cmake/orocos-rtt/UseOROCOS-RTT.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\lib\cmake\orocos-rtt\" />
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/../../../citk/systems/cogimon-minimal-nightly/lib/cmake/orocos-rtt/cmake_uninstall.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\lib\cmake\orocos-rtt\" />
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/../../../citk/systems/cogimon-minimal-nightly/share/rtt-core-extensions-0.1/rtt-core-extensions-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\share\rtt-core-extensions-0.1\" />
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/../../../citk/systems/cogimon-minimal-nightly/share/rst-rt-0.1/rst-rt-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\citk\systems\cogimon-minimal-nightly\share\rst-rt-0.1\" />
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/../../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\" />
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/../../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\" />
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/../../../../../opt/ros/kinetic/share/orocos_kdl/orocos_kdl-config-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\orocos_kdl\" />
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/../../../../../opt/ros/kinetic/share/orocos_kdl/orocos_kdl-config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\orocos_kdl\" />
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/../../../../../opt/ros/kinetic/share/orocos_kdl/OrocosKDLTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\orocos_kdl\" />
+      </Unit>
+      <Unit filename="/home/sgo/git-repos/orocosComponents/rtt-manipulability-estimator/../../../../../opt/ros/kinetic/share/orocos_kdl/OrocosKDLTargets-none.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\kinetic\share\orocos_kdl\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
